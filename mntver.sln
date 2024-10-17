@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34407.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mntver", "mntver\mntver.vcxproj", "{7A817B86-E70C-42CF-8A52-1B66A83D610B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A817B86-E70C-42CF-8A52-1B66A83D610B}.Debug|x64.ActiveCfg = Debug|x64
+		{7A817B86-E70C-42CF-8A52-1B66A83D610B}.Debug|x64.Build.0 = Debug|x64
+		{7A817B86-E70C-42CF-8A52-1B66A83D610B}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A817B86-E70C-42CF-8A52-1B66A83D610B}.Debug|x86.Build.0 = Debug|Win32
+		{7A817B86-E70C-42CF-8A52-1B66A83D610B}.Release|x64.ActiveCfg = Release|x64
+		{7A817B86-E70C-42CF-8A52-1B66A83D610B}.Release|x64.Build.0 = Release|x64
+		{7A817B86-E70C-42CF-8A52-1B66A83D610B}.Release|x86.ActiveCfg = Release|Win32
+		{7A817B86-E70C-42CF-8A52-1B66A83D610B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA4BA900-89EF-461F-AECD-A80707E62B3E}
+	EndGlobalSection
+EndGlobal
