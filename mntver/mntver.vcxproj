@@ -123,7 +123,8 @@
       <AdditionalDependencies>ws2_32.lib;mpr.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreLinkEvent>
-      <Command>md bin\Debug</Command>
+      <Command>
+      </Command>
     </PreLinkEvent>
     <PostBuildEvent>
       <Command>copy ..\x64\Debug\*.exe bin\Debug</Command>
@@ -146,7 +147,8 @@
       <AdditionalDependencies>ws2_32.lib;mpr.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreLinkEvent>
-      <Command>md bin\Release</Command>
+      <Command>
+      </Command>
     </PreLinkEvent>
     <PostBuildEvent>
       <Command>copy ..\x64\Release\*.exe bin\Release</Command>
@@ -158,7 +160,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mntver.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mntver.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
